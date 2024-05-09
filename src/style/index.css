@@ -254,7 +254,27 @@ text-align: left;
 
 .content-knowledge{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+aside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 258px;
+}
+
+
+.content-knowledge{
+    display: flex;
+    justify-content: center;
+}
+
+.align-contente{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
